@@ -1,0 +1,28 @@
+{
+  "name": "chromium-pdf-text-gap",
+  "version": "0.1.0",
+  "description": "A demo to reproduce a Chromium bug of printing texts",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mstr-pezhang/chromium-pdf-text-gap.git"
+  },
+  "keywords": [
+    "chromium",
+    "pdf",
+    "text"
+  ],
+  "author": "Zhang, Peiliang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mstr-pezhang/chromium-pdf-text-gap/issues"
+  },
+  "homepage": "https://github.com/mstr-pezhang/chromium-pdf-text-gap#readme",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  }
+}
