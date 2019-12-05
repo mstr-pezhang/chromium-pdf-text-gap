@@ -1,6 +1,6 @@
 # A simple demo to reproduce the issue of Chromium PDF (unexpected text gap)
 
-# Build & Run
+## Build & Run
 
 1. Run `npm i` to install puppeteer 2.0.
 
