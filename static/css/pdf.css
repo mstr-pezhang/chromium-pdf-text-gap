@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#header-root {
+	height: 38px;
+	font-size: 0.125in;
+}
+
+#header-content {
+	height: 24px;
+	font-weight: normal;
+	font-family: 'Arial', 'SimHei';
+}
+
+#header-content div {
+	height: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	float: right;
+	color: #000000;
+}
+
+#header-content #header-viname {
+	float: left;
+}
+
+#header-content .content-splitter{
+	margin: 0 0.5em;
+}
+
+#header-content .content-splitter::before{
+	content: '-';
+}
+
+#header-splitter {
+	height: 1px;
+	background-color: grey;
+}
+
+#rootView {
+	overflow: hidden;
+	width: 758px;
+	height: 439px;
+}
